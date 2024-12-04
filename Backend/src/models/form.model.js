@@ -22,5 +22,5 @@ const FormSchema = new Schema(
   { timestamps: true }
 );
 
-const Form = mongoose.model("Form", FormSchema);
-module.exports = Form;
+export const Form = mongoose.model("Form", FormSchema);
+

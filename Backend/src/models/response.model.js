@@ -26,5 +26,5 @@ const ResponseSchema = new Schema({
   submissionTime: { type: Date, default: Date.now },
 });
 
-const Response = mongoose.model("Response", ResponseSchema);
-module.exports = Response;
+export const Response = mongoose.model("Response", ResponseSchema);
+

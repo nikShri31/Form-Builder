@@ -1,5 +1,5 @@
-import Question from "../models/Question.js";
-import Form from "../models/Form.js";
+import {Question} from "../models/question.model.js";
+import {Form} from "../models/form.model.js";
 import { ApiError } from "../utils/apiError.js";
 import { ApiResponse } from "../utils/apiResponse.js";
 import { asyncHandler } from "../utils/asyncHandler.js";
